@@ -1,0 +1,15 @@
+*:focus {outline:none;}
+* {box-sizing: border-box;}
+html, body {margin:0;padding:0;height: 100%;}
+body {display: flex; flex-direction: column; background-color:#eee;}
+
+section#enter {border-width: 1px; border-style: solid; border-color: red;}
+section#main {display:flex; height:100%;}
+section#messages {border-width: 1px; border-style: solid; border-color: black; width:90%; overflow:auto; overflow-wrap: break-word;}
+section#nicknames {border-width: 1px; border-style: solid; border-color: black; width:10%; overflow: auto;}
+
+section#messages span {display:block; font-family: monospace; padding: 2px;}
+section#input #m {width: 100%; height:100%; background-color: #ffff66; border-style:solid; border-color:black; border-width:1px;}
+section#nicknames span {display:block; font-family: arial; font-size: 13px; line-height: 14px;}
+.newUserMsg {font-style: italic; color:green;}
+.disUserMsg {font-style: italic; color: red;}
